@@ -7,7 +7,7 @@ nav>ul {
   margin: 0;
   position: relative;
   padding: 0;
-  display: block
+  display: block;
   list-style-type: none;
   display: flex;
   justify-content: flex-end;

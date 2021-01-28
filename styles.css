@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+nav>ul {
+  margin: 0;
+  position: relative;
+  padding: 0;
+  display: block
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  background: #000;
+  color: #fff;
+}
+
+nav>ul>li {
+  padding: 0 25px;
+  display: block;
+  height: 30px;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+nav a {
+  line-height: 30px;
+}
+ 
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #008000;
+}
+
+nav>ul>li:hover {
+  background: rgba(255,255,255,0.5);
+}
+
+div.flex-container {
+  display: flex;
+  padding: 20px;
+}
+
+main {
+  margin-right: 20px;
+  flex-grow: 8;
+}
+
+article, aside {
+  border: 2px solid #000;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+aside {
+  max-width: 200px;
+  flex-grow: 4;
+}
